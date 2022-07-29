@@ -1,0 +1,506 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--document title-->
+    <title>Patricia's Portfolio</title>
+    <!--bootstrap/js links-->
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!--Animation-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <!--Bootstrap icons-->
+    <link rel="stylesheet" href="font/bootstrap-icons.css">
+  </head>
+
+    <!--internal CSS-->
+    <style>
+      /**page height and width settings**/
+      body,html{
+        height: 100%;
+        width: 100%;
+      }
+
+      /**removing extra spacing from:**/
+      p, h1, h2, h3, h4, h5, h6{
+        margin: 0;
+        padding: 0;
+      }
+
+      /**bullet point styling**/
+      li::marker{
+        font-size: smaller;
+      }   
+    </style><!--end internal CSS-->
+
+  
+  <body>
+
+    <!--navbar starts-->
+    <div class="container-fluid">
+      <nav class="navbar navbar-expand-sm fixed-top bg-black">
+        <div class="container">
+          <!--navbar brand-->
+          <a class="navbar-brand" href="index.html"><img src="images/pat1.png" width="130"></a>
+          <!--nav-menu-->
+          <button class="navbar-toggler close bg-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mx-auto" style="font-family: calibri;">
+              <li class="nav-item"><a class="nav-link active text-white me-3" aria-current="page" href="#about">About</a></li>
+              <li class="nav-item"><a class="nav-link active text-white me-3" href="#skills">Skills</a></li>
+              <li class="nav-item"><a class="nav-link active text-white me-3" href="#services">Services</a></li>                
+              <li class="nav-item"><a class="nav-link active text-white me-3" aria-current="page" href="#portfolio">Portfolio</a></li>
+              <li class="nav-item"><a class="nav-link active text-white me-3" aria-current="page" href="#referees">Referees</a></li>
+              <li class="nav-item"><a class="nav-link active text-white me-3" aria-current="page" href="#contact">Contact</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div><!--Navbar ends-->
+
+
+    
+    <!--Start home-->
+    <!--hero section-->
+    <div class="container-fluid" id="home" style="background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),url('images/bbg.jpg'); background-repeat: no-repeat; background-size: cover; padding-top: 25px;">
+      <div class="container">
+        <div class="row" style="padding-top: 180px;">
+          <div class="col-sm-12 text-center" style="padding-bottom: 220px;">
+            <img src="images/pass.jpg" class="rounded-circle" width="125" height="125">
+            <h1 class="display-3 fw-bold mt-3 text-primary" style="text-shadow: 4px 3px black;">PATRICIA UDOMKPAH</h1>
+            <p class="fs-4" id="designation" style="color: rgb(255, 187, 0); text-shadow: 2px 2px black;">Frontend Web Developer | Graphic Designer</p>
+            <!--social icons-->
+            <ul class="nav display-flex justify-content-center mt-2" style="padding-bottom: 100px; text-shadow: 4px 3px black ;">
+              <li><a href="https://web.facebook.com/tri.ciary.9" title="Facebook"><i class="bi bi-facebook mx-3 text-primary"></i></a></li> 
+              <li><a href="https://www.instagram.com/iamtriciary/" title="Instagram"><i class="bi bi-instagram mx-3 text-primary"></i></a></li>
+              <li><a href="https://twitter.com/callmetriciary" title="Twitter"><i class="bi bi-twitter mx-2 text-primary"></i></a></li>  
+              <li><a href="https://github.com/Triciary" title="Github"><i class="bi bi-github mx-3 text-primary"></i></a></li> 
+              <li><a href="https://wa.me/+2348125711074" title="WhatsApp"><i class="bi bi-whatsapp mx-3 text-primary"></i></a></li>  
+            </ul>
+            <!--outline buttons-->
+            <a href="#contact" style="box-shadow: 8px 2px black; text-shadow: 2px 2px black;" class="btn btn-outline-warning text-warning mx-2 px-4 animate__animated animate__pulse animate__delay-0s animate__infinite	infinite animate__fast">Hire Me</a>
+            <a href="images/Patricia's portfolio.pdf" style="box-shadow: 8px 2px black; text-shadow: 2px 2px black;" class="btn btn-outline-warning mx-2 text-warning" target="_blank">Download CV <i class="bi bi-download"></i></a>
+          </div>
+        </div>
+      </div>
+    </div><!--end home-->
+    
+    
+
+
+    <!-- Start About-->
+    <div class="container-fluid" id="about" style="margin-top: 15px; margin-bottom: 15px;">
+      <div class="container" style="padding-top: 130px;">
+        <!--image-->
+        <div class="row">
+          <div class="col-md-4 text-center mb-2">
+            <img src="images/pix1.jpg" id="aboutimage" alt="image" class="img-thumbnail text-center" width="400" height="400"/>
+          </div>
+          <!--intro-->
+          <div class="col-md-8">
+            <h3 class="fw-bold text-primary mb-3">MS. PATRICIA UDOMKPAH</h3>
+            <h6 class="text-warning mb-1">Front-end Web Developer | Graphic Designer | Administrator</h6>
+            <p class="lead fs-5">A dynamic team-player with over 10-years of experience and a proven track record in excellence 
+            and commitment to quality; who is eager to learn and be challenged to growth while effectively meeting organizational goals. I love writing, traveling, swimming and making valuable friends.</p>
+            <!--bio-->
+            <h5 class="lead fw-bold text-primary mt-3">Bio-data</h5>
+              <ul class="lead" style="list-style-type: square;">
+                <li><strong>Marital Status:</strong> Single</li>
+                <li><strong>Nationality:</strong> Nigerian</li>
+                <li><strong>State:</strong>  Akwa Ibom</li>
+                <li><strong>Phone:</strong>  +2348125711074</li>
+                <li><strong>Email:</strong>  triciary31@gmail.com</li>
+                <li><strong>Address:</strong> 13 Charles Ogan Ave., PH, RS.</li>
+                <li><strong>Emergency Contact:</strong> </li>
+                <li><strong>Name:</strong> Nneka Udomkpah</li>
+                <li><strong>Phone:</strong> +2348030928482</li>
+              </ul>
+          </div>
+        </div>
+
+                
+        <!--qualifications section-->
+        <div class="row mt-4 lead">
+          <!--Education-->       
+          <div class="col-6">
+            <h5 class="text-primary">EDUCATION</h5>
+            <h6 class="mt-3">Higher National Diploma in Office Technology and Management</h6>
+            <p>Akwa Ibom State Polytechnic, Ikot-Osurua, Ikot Ekpene, Akwa Ibom State.<br/>2019-2022</p>
+    
+            <h6 class="mt-3">National Diploma in Office Technology and Management</h6>
+            <p>Akwa Ibom State Polytechnic, Ikot-Osurua,<br/>2016-2018</p>
+                    
+            <h6 class="mt-3">West African Senior School Certificate.</h6>
+            <p> Iwerre Comprehensive Secondary School, Obotme, Ini, Akwa Ibom State<br/>2016-2018</p>
+    
+            <h6 class="mt-3">First School Leaving Certificate</h6>
+            <p>State Primary School, Amadi-Ama, Port Harcourt, River State<br/>2007</p>
+              </div>
+
+          <!--experience-->      
+          <div class="col-6">
+            <h5 class="text-primary">EXPERIENCE</h5>
+            <h6 class="mt-3">Administrator/Data Analyst</h6>
+            <p>Harriv Human Resources Limited<br/>50 Anozie Street, Mile 2, Port Harcourt, Rivers State, Nigeria.<br>2021 to present</p>
+    
+            <h6 class="mt-2">Logistics Intern</h6>
+            <p>Schlumberger Nigeria<br/>Plot 161 Trans Amadi, Port Harcourt, Rivers State.<br>2018 - 2020</p>
+                    
+            <h6 class="mt-2">Secretary - SCD Department</h6>
+            <p>Nestoil Limited<br/>End of Okilo Road, Nestoil Industrial Area, Port Harcourt, Rivers State, Nigeria<br/>2017</p>
+    
+            <h6 class="mt-2">Computer Instructor</h6>
+            <p>Starcon Computers<br/>4 Amadi-ama Street,Trans-Amadi,  Port Harcourt, Rivers State<br/>2017</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+      
+
+    <!--start skills-->
+    <div class="container-fluid" style="margin-top: 50px; padding-top: 150px; padding-bottom: 150px; background-color: black;" id="skills">
+      <div class="container">
+        <!--heading-->
+        <div class="text-center text-primary"> 
+          <h3 class="fw-bold">SKILLS</h3>
+          <hr>
+        </div>
+        <!--progress bars-->
+        <div class="row mt-5">
+          <!--start first column-->
+          <div class="col-md-6">
+            <span class="text-white">Microsoft Word</span>
+            <div class="progress mb-3" style="height: 12px;">
+              <div class="progress-bar progress-bar-striped progress-bar-animated" style="width:99%; height: 12px;">99%
+              </div>
+            </div>
+            
+            <span class="text-white">Microsoft Powerpoint</span>
+            <div class="progress mb-3" style="height: 12px;">
+              <div class="progress-bar progress-bar-striped progress-bar-animated" style="width:95%; height: 12px;">95%
+              </div>
+            </div>
+
+            <span class="text-white">Microsoft Excel</span>
+            <div class="progress mb-3" style="height: 12px;">
+              <div class="progress-bar progress-bar-striped progress-bar-animated" style="width:85%; height: 12px;">85%
+              </div>
+            </div>
+
+            <span class="text-white">Coreldraw</span>
+            <div class="progress mb-3" style="height: 12px;">
+              <div class="progress-bar progress-bar-striped progress-bar-animated" style="width:80%; height: 12px;">80%</div>
+            </div>
+
+            <span class="text-white">HTML</span>
+            <div class="progress mb-3" style="height: 12px;">
+              <div class="progress-bar progress-bar-striped progress-bar-animated" style="width:75%; height: 12px;">75%
+              </div>
+            </div>
+
+            <span class="text-white">CSS</span>
+            <div class="progress mb-3" style="height: 12px;">
+              <div class="progress-bar progress-bar-striped progress-bar-animated" style="width:70%; height: 12px;">70%
+              </div>
+            </div>
+          </div><!--end first column-->
+
+          <!--start second column-->
+          <div class="col-md-6">
+            <span class="text-white">Communication</span>
+            <div class="progress mb-3" style="height: 12px;">
+              <div class="progress-bar progress-bar-striped progress-bar-animated" style="width:100%; height: 12px;">100%
+              </div>
+            </div>
+
+            <span class="text-white">Creativity</span>
+            <div class="progress mb-3" style="height: 12px;">
+              <div class="progress-bar progress-bar-striped progress-bar-animated" style="width:100%; height: 12px;">100%
+              </div>
+            </div>
+
+            
+            <span class="text-white">Time Management</span>
+            <div class="progress mb-3" style="height: 12px;">
+              <div class="progress-bar progress-bar-striped progress-bar-animated" style="width:100%; height: 12px;">100%
+              </div>
+            </div>
+
+            <span class="text-white">Interpersonal</span>
+            <div class="progress mb-3" style="height: 12px;">
+              <div class="progress-bar progress-bar-striped progress-bar-animated" style="width:90%; height: 12px;">90%
+              </div>
+            </div>
+
+            <span class="text-white">Leadership</span>
+            <div class="progress mb-3" style="height: 12px;">
+              <div class="progress-bar progress-bar-striped progress-bar-animated" style="width:90%; height: 12px;">90%
+              </div>
+            </div>
+
+            <span class="text-white">Negotiation</span>
+            <div class="progress" style="height: 12px;">
+              <div class="progress-bar progress-bar-striped progress-bar-animated" style="width:90%; height: 12px;">90%
+              </div>
+            </div>
+          </div><!--end second column-->
+        </div><!--end row-->
+      </div>
+    </div><!--end skills--> 
+    
+
+
+    <!--start services-->
+    <div class="container-fluid" id="services" style="background-image: linear-gradient(rgba(0, 0, 0, 0.925), rgba(0, 0, 0, 0.911)),url('images/bgg.jpg'); background-repeat: no-repeat; background-size: cover; background-position: center; padding-bottom: 120px;">
+      <div class=" animate__animated animate__bounce animate__delay-0s" style="padding-top: 150px; ">
+        <div class="text-center text-primary">
+          <!--heading-->
+          <h3 class="fw-bold">WHAT I DO</h3>
+          <hr>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row mt-3">
+          <div class="col p-4">
+            <!--first card--> 
+            <div class="card shadow-sm">
+              <img class="card-img-top" src="images/graphic.jpg" alt="card image">
+              <div class="card-body bg-black">
+                <h5 class="text-primary">Graphic Design</h5>
+                <p class="card-text text-white">Get the right branding for your business from the best Graphic Designer in Port Harcourt.  
+                  I can uncover   your unique voice, jumpstart your growth and drive competitive advantage.
+                  I am just a mail away.
+                  <a href="#contact" class="text-decoration-none">Click here</a>
+                </p>
+                <a class="btn btn-sm btn-primary text-white mt-3" href="#contact" role="button">Contact</a>
+              </div>
+            </div>
+          </div>
+          <!--card two-->
+          <div class="col p-4">
+            <div class="card shadow-sm">
+              <img class="card-img-top" src="images/webb.jpg" alt="card image"/>
+                <div class="card-body bg-black">
+                  <h5 class="text-primary">Web Development</h5>
+                  <p class="card-text text-white">Bringing you the best team of web designers (Strategist, web developers & content writers).
+                    We are not only visually beautiful but also functionality effective. 
+                    We are committed to quality and responsiveness.
+                  </p>
+                  <a class="btn btn-sm btn-primary text-white mt-3" href="#contact" role="button">Contact</a>
+                </div>
+            </div>
+          </div>
+          <!--card three-->
+          <div class="col p-4">
+            <div class="card shadow-sm">
+              <img class="card-img-top" src="images/admin.jpg" alt="card image"/>
+              <div class="card-body bg-black">
+                <h5 class="mt-1 text-primary">Administrative Support</h5>
+                <p class="card-text text-white">Providing day-to-day administrative/clerical support such as: word processing, Managing agendas/travel arrangements/appointments etc for the smooth running of an organization  .
+                </p>
+                <a class="btn btn-sm btn-primary text-white mt-3" href="#contact" role="button">Contact</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div><!--end services-->
+    
+
+  
+
+      <!-- Start Portfolio -->
+      <div class="container-fluid bg-black" id="portfolio" style="padding-top: 150px; padding-bottom: 150px;">
+        <div class="container">
+          <div class=" animate__animated animate__bounce animate__delay-0s">
+            <div class="col-sm-12 text-center text-primary">
+              <!--heading-->
+              <h3 class="fw-bold">PORTFOLIO</h3>
+              <hr>
+            </div>
+          </div>     
+          <!-- images-->
+          <div id="project-grid" class="row animate__animated">
+            <div class="col-md-4 project-item mt-4">
+              <a href="images/portfolio0.jpeg" target="_blank">
+                <img src="images/portfolio0.jpeg" width="100%" alt="">
+              </a>
+            </div>
+            <div class="col-md-4 project-item mt-4">
+              <a href="images/grap2.png" target="_blank">
+                <img src="images/grap2.jpg" width="100%" alt="">
+              </a>
+            </div>
+            <div class="col-md-4 project-item mt-4">
+              <a href="images/grap.png" target="_blank">
+                <img src="images/grap.png" width="100%" alt="">
+              </a>
+            </div>
+            <div class="col-md-4 project-item mt-4">
+              <a href="images/portfolio7.jpg" target="_blank">
+                <img src="images/portfolio7.jpg" width="100%" height="140%" alt="">
+              </a>
+            </div>
+            <div class="col-md-4 project-item mt-4">
+              <a href="images/portfolio8.jpg" target="_blank">
+                <img src="images/portfolio8.jpg" width="100%" height="140%" alt="">
+              </a>
+            </div>
+            <div class="col-md-4 project-item mt-4">
+              <a href="images/portfolio1.jpg" target="_blank">
+                <img src="images/portfolio1.jpg" width="100%" height="140%" alt="">
+              </a>
+            </div>
+          </div>
+        </div>
+      </div><!-- end portfolio -->
+      
+
+
+
+
+    <!--referees-->
+
+    <!--carousel section-->
+    <div class="container-fluid" id="referees" style="padding-top: 180px; padding-bottom: 120px;">
+      <!--heading-->
+      <div class="text-center text-primary">  
+          <h3 class="fw-bold">REFEREES</h3>
+          <hr>
+      </div>
+      <div id="carouselExampleLight" class="carousel carousel-light slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <!--referees details-->
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="3000">
+            <img src="images/picssff.jpg" class="d-block rounded-circle mx-auto mt-5" height="120" width="120" alt="..."><br><br><br><br><br><br>
+            <div class="carousel-caption d-none d-md-block">
+              <h4 class="text-dark">Benson Sithole</h4>
+              <p class="text-dark fs-5">Electrical Engineering<br>
+              +27614450424  | 1 Viool Street Rynfield, Benoni, South Africa</p>
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="3000">
+            <img src="images/pycs.jpg" class="d-block rounded-circle mx-auto mt-5" height="120" width="120" alt="..."><br><br><br><br><br><br>
+            <div class="carousel-caption d-none d-md-block">
+              <h4 class="text-black">Faith Udomkpah</h4>
+              <p class="text-black fs-5">Entrepreneur<br>
+              +2347036324257  | Ogbatai Junction, Woji-Ama, Port Harcourt, Rivers State</p>
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="3000">
+            <img src="images/ref1.jpg" class="d-block rounded-circle mx-auto mt-5" height="120" width="120" alt="..."><br><br><br><br><br><br>
+            <div class="carousel-caption d-none d-md-block">
+              <h4 class="text-black">Sunny Gobo</h4>
+              <p class="text-black fs-5">Sustainable Community Development Manager<br>
+              Nestoil Limited, End of Okilo Road, Port Harcourt, Rivers State. | 
+              07068679906</p> 
+            </div>
+          </div>
+        </div>
+        <!--control ankles-->
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden"></span>
+        </button>
+      </div>
+    </div>
+    
+
+
+
+    <!--contact form-->
+    <div class="container-fluid" id="contact" style="background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),url('images/bbg.jpg'); background-repeat: no-repeat; background-size: cover; background-position: center; padding-top: 130px; padding-bottom: 50px;">
+      <div class="container">
+        <!--heading-->
+        <div class="text-center text-primary">
+          <h3 class="fw-bold">SEND A MAIL</h3>
+          <hr>
+        </div>
+        <div class="row mt-4">
+          <div class="col-sm-9">
+            <!--Radio buttons-->
+            <form action="/action_page.php" method="post">
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+                <label class="form-check-label text-primary fw-bold" for="inlineRadio1">Hire</label>
+              </div>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+                <label class="form-check-label text-primary fw-bold" for="inlineRadio2">Recommend</label>
+              </div>
+
+              <!--name-->
+                <div class="mb-3 mt-3">
+                  <input type="text" class="form-control text" id="name" placeholder="Enter full name" name="name">
+                </div>
+                <!--email-->
+                <div class="mb-3">
+                  <input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
+                </div>
+                <!--password-->
+                <div class="mb-3">
+                  <input type="password" class="form-control text" id="pwd" placeholder="Enter password" name="pswd">
+                </div>
+                <!--textarea-->
+                <div class="form-outline">
+                  <textarea class="form-control " id="textAreaExample2" rows="8"></textarea>
+                  <label class="form-label text-primary fw-bold" for="textAreaExample2">Comment</label>
+                </div>
+                <button type="submit" class="btn btn-primary mt-3 mb-3">Submit</button>
+            </form>
+          </div>
+          <!--contact info by the right-->
+          <div class="col-sm-3 bg-primary text-white rounded" style="padding-left: 50px; padding-right: 40px; padding-top: 50px; height: 492px;">
+            <h6><i class="bi bi-geo-alt-fill fs-4"></i> Address:</h6>
+            <p>13 Charles Ogan Avenue, Trans Amadi, Port Harcourt, Rivers State.</p><br/><br/>
+
+            <h6><i class="bi bi-telephone-fill fs-4"></i> Phone:</h6>
+            <p>+2348125711074</p><br/><br/>
+
+            <h6><i class="bi bi-envelope fs-4"></i> Email:</h6>
+            <p>triciary31@gmail.com</p><br/><br/>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+    <!--footer-->
+    <div class="container-fluid">
+      <div class="container">
+        <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+          <p class="col-md-4 mb-0 text-primary">&copy; Triciary Udomkpah 2022,  Inc</p>
+          <a href="/" class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-dark text-decoration-none">
+            <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"/></svg>
+          </a>
+          <ul class="nav col-md-4 justify-content-end">
+            <li class="nav-item"><a href="#home" class="nav-link px-2 text-muted">Home</a></li>
+            <li class="nav-item"><a href="#about" class="nav-link px-2 text-muted">about</a></li>
+            <li class="nav-item"><a href="#skills" class="nav-link px-2 text-muted">Skills</a></li>
+            <li class="nav-item"><a href="#services" class="nav-link px-2 text-muted">Services</a></li>
+            <li class="nav-item"><a href="#portfolio" class="nav-link px-2 text-muted">Portfolio</a></li>
+          </ul>
+        </footer>
+      </div>
+    </div><!--end footer-->  
+    
+
+    <!--javascript popper-->
+    <script src="js/bootstrap.bundle.min.js"></script>
+
+  </body><!--end body-->
+</html><!--end HTML-->
